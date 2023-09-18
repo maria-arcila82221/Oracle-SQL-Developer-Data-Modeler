@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0BF4669-1D96-FD20-E53C-4A2B93DF98C1" name="Atracador">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:59:06 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="8D4228DA-381B-0549-1328-996A8092526C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:59:44 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="9370C259-E5F0-573A-FAC2-58CA6ED54F30">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:59:57 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="D9D9F9B3-3BDA-B329-28AF-736A6F082886">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:39:45 UTC</createdTime>
+<generatorID>A788FB55-2A0D-3289-4832-17EDB3B87FF4</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>78E3BC26-D4B9-6D1B-CF0E-8B69C2582AC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EECE05C-91DB-6939-C779-89C3017F3C39" name="Atracador PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:59:56 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D4228DA-381B-0549-1328-996A8092526C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2B33A09-7E9C-C23D-F313-0EB59F657F6A" name="FICHA_MANTENIMIENTO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:56:45 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="BFD4273C-66BC-FDD8-6415-8864D3C22B49">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:56:55 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="572D1555-FAAF-974B-E131-894C0E7A2DEE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:57:31 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESPONSABLE" id="06C662B1-0E73-3ED3-6A8E-0626120F190C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:57:53 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISPOSITIVO" id="5212364F-F643-E2A8-7367-6851E7FC2020">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 16:21:16 UTC</createdTime>
+<generatorID>A1A3B157-B933-41FE-B5FE-06682F290EA8</generatorID>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>747AF079-2C57-8210-05C5-5A34B69D3E56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EABDC409-3F44-8A68-913A-B9CB3A0DB2D8" name="FICHA_MANTENIMIENTO PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:57:52 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFD4273C-66BC-FDD8-6415-8864D3C22B49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

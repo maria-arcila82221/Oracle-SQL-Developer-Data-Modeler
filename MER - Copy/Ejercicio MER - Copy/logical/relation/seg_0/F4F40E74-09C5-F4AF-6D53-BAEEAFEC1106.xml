@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dispositivo_Usuario" directorySegmentName="seg_0" id="F4F40E74-09C5-F4AF-6D53-BAEEAFEC1106">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 16:20:00 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<sourcePk>0FA0E585-06B8-7FF4-64B9-90810953C4CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45A930ED-8681-CB5B-8ECE-93B2C4B7BC92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F88530B-FACC-3C2B-56AA-63CB6BF4B78E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario_Sancion" directorySegmentName="seg_0" id="2CC195E0-0307-2A49-DD2A-3177C80EBD0A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 16:25:03 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<sourcePk>37A91C6C-11FE-C5B2-4E24-4321A46A6CB0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F88530B-FACC-3C2B-56AA-63CB6BF4B78E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF76F852-5D2E-F8AC-F86D-49A566993553</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

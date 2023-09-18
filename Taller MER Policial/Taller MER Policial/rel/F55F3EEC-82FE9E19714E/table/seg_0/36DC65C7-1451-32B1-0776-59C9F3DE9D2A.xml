@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36DC65C7-1451-32B1-0776-59C9F3DE9D2A" name="Atracador">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>B0BF4669-1D96-FD20-E53C-4A2B93DF98C1</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="31CB8600-18DC-FB33-6AA4-197F532E8448">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>8D4228DA-381B-0549-1328-996A8092526C</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="CCF96CFC-1BF7-B424-E20B-12868770DD28">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>9370C259-E5F0-573A-FAC2-58CA6ED54F30</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banda_NUMERO" id="CD8308D8-39B6-4E32-CDE2-CA483C3D666F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>D9D9F9B3-3BDA-B329-28AF-736A6F082886</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16E7C9A1-0B69-6481-7055-CB63FBBBFAE8" referredColumn="CA3C7CF6-31E8-C747-48BE-FF89F4EE7D64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BF8ECBD-3A7E-215E-664E-ABD5C8A252A2" name="Atracador_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>4EECE05C-91DB-6939-C779-89C3017F3C39</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CB8600-18DC-FB33-6AA4-197F532E8448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AD869DF-0381-467E-AFB6-7E3E294E56FF" name="Atracador_Banda_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>A788FB55-2A0D-3289-4832-17EDB3B87FF4</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8308D8-39B6-4E32-CDE2-CA483C3D666F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

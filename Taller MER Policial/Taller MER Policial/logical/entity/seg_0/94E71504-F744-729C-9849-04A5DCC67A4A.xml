@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94E71504-F744-729C-9849-04A5DCC67A4A" name="Sucursal">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:54:13 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="D7E0600D-D3D1-1D48-8570-A1ED55A50939">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:55:47 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOMICILIO" id="8092D382-ED5E-8E2B-61AF-C6449FB60145">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:55:59 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_EMPLEADOS" id="5FAFBC6F-24EE-5369-5822-726A5A64A3C5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:56:13 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="0635C719-5287-D159-8839-79A5AF7EC64A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:19:12 UTC</createdTime>
+<generatorID>6A4AE1BF-88C1-6B87-F86D-E815776E1B2C</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>9B672FA0-854D-DBBF-75A2-E0A62C0159A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO2" id="AE53B540-A820-E814-93B3-0178983CB45B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:38:48 UTC</createdTime>
+<generatorID>704AF34E-56B7-659B-AA90-4A418BA9D9B7</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>8D4228DA-381B-0549-1328-996A8092526C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5133E90E-0768-6BB6-E1DC-89C41D096892" name="Sucursal PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:55:58 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7E0600D-D3D1-1D48-8570-A1ED55A50939</attributeRef>
+<attributeRef>AE53B540-A820-E814-93B3-0178983CB45B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Logica_Uno" id="7FF5D46B-0EDE-EAF2-4FC8-AC683AD4A1D9" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:31:01 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7FF5D46B-0EDE-EAF2-4FC8-AC683AD4A1D9</designId>
+</OSDM_Design>

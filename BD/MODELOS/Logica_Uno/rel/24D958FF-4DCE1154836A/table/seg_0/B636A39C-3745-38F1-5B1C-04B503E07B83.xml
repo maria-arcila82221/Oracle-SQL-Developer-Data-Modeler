@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B636A39C-3745-38F1-5B1C-04B503E07B83" name="PRODUCTO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>F600C7E4-1F96-EAE7-F8DB-25D4D862759F</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="81E3F973-AD04-25F8-4D54-E830CEA6C675">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>C646F1DF-C16A-9599-E41E-6ECFB13B6A94</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PRODUCTO" id="B73A79E7-4509-EA80-8FBB-4760E910A74D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>0D27AD32-0076-EA03-26AD-354AD157F09B</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A5D3EC8A-9075-492E-7E3D-D15B191CF205">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>8BE1FC33-9997-68DA-EC24-09670CFA1B04</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_PRODUCTO" id="CFCA745F-A9DE-8927-9D05-78E1AACE7498">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>402E994F-F2FA-C88B-5D02-54CFDBECB26F</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="865F546D-6D5B-446E-AB24-40DD1F09CCD5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>FE6AA7A6-0127-63B3-372F-99F92D0F276B</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F03C348A-6322-846B-0141-FC6C5544812F" name="PRODUCTO_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>44582CB7-3656-A6E5-5C24-C843EFB79C22</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81E3F973-AD04-25F8-4D54-E830CEA6C675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

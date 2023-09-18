@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0867929-CE8D-D771-D423-B01DE7F4DE43" name="VENTA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:38:51 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_VENTA" id="7675E24E-4792-A16D-336B-D7E6DF61BCC4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:38:58 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="9D83AA33-8DFC-AA62-E6E6-8089D9600F14">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:39:53 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL" id="B7D9863C-A9DC-14A7-09B5-32DD2565DC5C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:40:06 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOCUMENTO" id="3621353F-1B2E-DDEC-2862-980D5360E15A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:43:51 UTC</createdTime>
+<generatorID>8DF485A4-AD4A-612A-14A8-340E8CB31B0C</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<referedAttribute>AB35EDEA-4EFB-F040-2CE7-252DD7298EDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91517633-0FA0-2AE8-E3F8-E4E0A330971D" name="VENTA PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:39:52 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7675E24E-4792-A16D-336B-D7E6DF61BCC4</attributeRef>
+<attributeRef>3621353F-1B2E-DDEC-2862-980D5360E15A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

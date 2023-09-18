@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="9C7AE194-44C7-3FEE-4BFD-30184FE4AE86">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:46:21 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<sourcePk>02183762-32E5-3652-3F75-669328DF42BA</sourcePk>
+<arc>247153DA-AE1B-2E28-8B53-6D14D7470384</arc>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBB11AAE-318E-1F43-52F7-F8B075458F65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88C66460-0539-1182-A3A2-9F1D74816B1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

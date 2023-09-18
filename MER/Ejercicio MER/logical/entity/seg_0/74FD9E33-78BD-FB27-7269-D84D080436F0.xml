@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74FD9E33-78BD-FB27-7269-D84D080436F0" name="VEHICULO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:22:31 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Placa" id="C2584AA1-8B29-2BFE-76CE-55661B3E6D5E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:26:41 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARQUEADERO" id="9D2B42C9-27CA-FFAB-C0B4-1FAC5EF30AC7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:34:25 UTC</createdTime>
+<generatorID>9E359D7F-DB0F-5910-DC80-1A4E2BF523A0</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>1D0DE758-5656-BC9F-4C55-B473ACDD02E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIUDAD" id="CC4A47EC-C0B3-CBF8-9BE2-0CB143A7F545">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:34:25 UTC</createdTime>
+<generatorID>9E359D7F-DB0F-5910-DC80-1A4E2BF523A0</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>C52B8310-FA1A-17CD-B4E7-4478FE931E75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="ED074A11-79F7-AB26-FB43-BC0A9249AD6B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:35:05 UTC</createdTime>
+<generatorID>054E6420-E2C5-3B26-C9CB-AEE438AA422D</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>6F33052C-86BE-23F9-1EE0-9C9876D71A55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA1" id="912570FC-A380-0AD4-7196-3515DFC2F079">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:35:13 UTC</createdTime>
+<generatorID>054E6420-E2C5-3B26-C9CB-AEE438AA422D</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>3BA3F81B-2059-1753-2D7D-90E947C0138B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF3FDEBE-C8A6-964D-B6D8-CE6438F57632" name="VEHICULO PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:29:04 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2584AA1-8B29-2BFE-76CE-55661B3E6D5E</attributeRef>
+<attributeRef>9D2B42C9-27CA-FFAB-C0B4-1FAC5EF30AC7</attributeRef>
+<attributeRef>CC4A47EC-C0B3-CBF8-9BE2-0CB143A7F545</attributeRef>
+<attributeRef>ED074A11-79F7-AB26-FB43-BC0A9249AD6B</attributeRef>
+<attributeRef>912570FC-A380-0AD4-7196-3515DFC2F079</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

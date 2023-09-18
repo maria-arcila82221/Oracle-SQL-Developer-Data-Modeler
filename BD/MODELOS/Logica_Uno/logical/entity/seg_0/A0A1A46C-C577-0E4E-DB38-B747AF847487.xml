@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0A1A46C-C577-0E4E-DB38-B747AF847487" name="CLIENTE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:31:12 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DOCUMENTO" id="AB35EDEA-4EFB-F040-2CE7-252DD7298EDC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:31:38 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="5688119C-34F5-FD49-E1FB-465224F4F62D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:31:55 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="CCB759F7-1D8E-28C7-0C7C-BC1B1C6AB723">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:35:29 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="E3BBDDF4-6174-CD44-BF5D-A8004309572E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:35:53 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="D1E5B644-D9B1-5A9D-213F-6114D9BB5041">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:36:13 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="F68CA542-5694-87F6-5A6E-F0F357CA756C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:37:25 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="5CB4A540-20EA-28BF-2C7E-30E5DFBAA24C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:37:58 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AE2F3C2-F26E-459F-95B1-964BD00FA4FA" name="CLIENTE PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 14:31:54 UTC</createdTime>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<engineerTo>
+<item key="24D958FF-D773-1B48-AF39-4DCE1154836A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB35EDEA-4EFB-F040-2CE7-252DD7298EDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

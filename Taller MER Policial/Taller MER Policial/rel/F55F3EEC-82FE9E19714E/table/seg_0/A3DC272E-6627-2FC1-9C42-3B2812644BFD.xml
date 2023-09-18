@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3DC272E-6627-2FC1-9C42-3B2812644BFD" name="Juez">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>001AFAB9-6A76-15DA-06EC-1B9ADF9A698E</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLAVE" id="B4F8A75B-79F9-58B2-E44D-A1C6A4DE7AB1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>5695375A-96E9-A331-C76E-FD9A3AC38998</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="C03CDF6F-763C-8033-26BA-86BD0BB7B603">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>50CA7BE0-EFD0-D31E-BC71-603B0773E7A4</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO_SERVICIO" id="D01C8B59-925C-CD11-BC43-838E832A1521">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>29CE217B-F6BE-F8E0-3AC0-2CBC98240D63</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0AC25F8-89D2-2FE7-6E5E-70830310F577" name="Juez_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>0CDE733C-5DA8-3783-2FD7-FD19157AC629</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4F8A75B-79F9-58B2-E44D-A1C6A4DE7AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

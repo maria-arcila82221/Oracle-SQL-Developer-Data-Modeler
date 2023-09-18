@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Taller MER Policial" id="25C00AA7-FB1F-1784-D421-2BEF79A95336" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:53:14 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>25C00AA7-FB1F-1784-D421-2BEF79A95336</designId>
+</OSDM_Design>

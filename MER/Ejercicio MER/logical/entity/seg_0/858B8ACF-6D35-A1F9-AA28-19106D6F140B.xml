@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="858B8ACF-6D35-A1F9-AA28-19106D6F140B" name="RECIBO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:24:59 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ENTRADA" id="DE7992D8-6BAE-49E0-19E8-0045DE3210B7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:25:43 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALIDA" id="F5F99716-4F46-744B-FF28-942D4B6B1230">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:26:15 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION" id="C30B3BAB-805C-750E-CC3A-D1D6951C5771">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:26:34 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="D7FD6EED-91DE-71BD-66B5-4A2B2A8D019C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:27:28 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RECIBO" id="E6882127-FA3B-B24D-9FCC-4BA1F290789A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:28:01 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="6B29F092-C383-D84A-6FEF-C03504880093">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:35:19 UTC</createdTime>
+<generatorID>EB55CE71-466E-C809-0034-A810CBF45268</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>6F33052C-86BE-23F9-1EE0-9C9876D71A55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA1" id="AD313B43-BD52-7444-AC93-2684D1402874">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:35:19 UTC</createdTime>
+<generatorID>EB55CE71-466E-C809-0034-A810CBF45268</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>3BA3F81B-2059-1753-2D7D-90E947C0138B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CC4433E-83FD-BE4C-65EF-228D54E25E7B" name="RECIBO PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:28:26 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6882127-FA3B-B24D-9FCC-4BA1F290789A</attributeRef>
+<attributeRef>6B29F092-C383-D84A-6FEF-C03504880093</attributeRef>
+<attributeRef>AD313B43-BD52-7444-AC93-2684D1402874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

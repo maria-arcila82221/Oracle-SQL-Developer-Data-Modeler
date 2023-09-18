@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7A5A9AD2-0FF6-886F-E921-2CD15155D36C" mainViewID="48FAA6D6-BA29-012B-3F54-68FDFCEBA9F7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:53:14 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

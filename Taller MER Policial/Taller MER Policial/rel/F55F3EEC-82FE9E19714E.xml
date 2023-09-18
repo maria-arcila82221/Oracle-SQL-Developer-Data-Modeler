@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F55F3EEC-CE39-D35D-B332-82FE9E19714E" mainViewID="21DAD807-1AAE-447E-0097-674D7E5983FE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:53:18 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

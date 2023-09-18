@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCB06809-B8D3-F324-61A8-22D3DFF0F5FB" name="Banco">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>BD81C5E9-B8DE-A010-D7FB-D7BF46C4F8F7</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="771C4F87-347B-E124-0C5D-957FBCCA7881">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>9B672FA0-854D-DBBF-75A2-E0A62C0159A3</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMICILIO" id="4FAD1DBE-D79C-56C6-88A4-4546F5DE6309">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>FF05C43C-24FC-FE8C-FEB1-908952394117</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="331DDB94-F2D7-DE13-A39E-5EA2CD1F6B05" name="Banco_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>B18C5F4C-9952-0F99-3A6F-ACD3E53D4B6A</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="771C4F87-347B-E124-0C5D-957FBCCA7881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

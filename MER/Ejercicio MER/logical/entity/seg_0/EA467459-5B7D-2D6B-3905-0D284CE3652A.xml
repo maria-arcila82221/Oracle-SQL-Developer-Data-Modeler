@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA467459-5B7D-2D6B-3905-0D284CE3652A" name="PARQUEADERO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:22:24 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PARQUEADERO" id="1D0DE758-5656-BC9F-4C55-B473ACDD02E0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:29:22 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="693909FC-E9D0-1486-30BE-1E25495D1CA7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:29:53 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UBICACION" id="0EFA8238-3624-2431-E64E-E9703E810612">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:30:17 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="358D4A4D-BF04-48D3-084F-61FB2776FA36">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:30:51 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIUDAD" id="C52B8310-FA1A-17CD-B4E7-4478FE931E75">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 22:31:32 UTC</createdTime>
+<generatorID>E0403A68-7E30-66E7-54E1-EEFB75C5DC97</generatorID>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>6E942973-3043-C85D-B041-44111F44D1E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31D9111E-2FEA-7C12-4106-CDC8E4FD570D" name="PARQUEADERO PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-07 16:29:52 UTC</createdTime>
+<ownerDesignName>Ejercicio MER</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D0DE758-5656-BC9F-4C55-B473ACDD02E0</attributeRef>
+<attributeRef>C52B8310-FA1A-17CD-B4E7-4478FE931E75</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

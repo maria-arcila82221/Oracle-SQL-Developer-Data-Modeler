@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DEAB11F-4BD2-178D-60E8-E57BD018F59A" name="CLIENTE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>A0A1A46C-C577-0E4E-DB38-B747AF847487</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCUMENTO" id="8987764E-CB0F-CBB8-B7E3-B785E0BBAA03">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>AB35EDEA-4EFB-F040-2CE7-252DD7298EDC</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="41105647-BEA7-6109-86D0-DD9236094220">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>5688119C-34F5-FD49-E1FB-465224F4F62D</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2C0839AF-07EE-375A-D924-C3A01B4C667D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>CCB759F7-1D8E-28C7-0C7C-BC1B1C6AB723</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="6F840639-C128-E41C-68DF-16D295D92AC3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>E3BBDDF4-6174-CD44-BF5D-A8004309572E</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="73544AB1-AFD6-A118-F224-84761CAC605C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>D1E5B644-D9B1-5A9D-213F-6114D9BB5041</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="30EF49E1-A0A4-07AD-D9CB-7DA2A757C2E5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>F68CA542-5694-87F6-5A6E-F0F357CA756C</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="E0782F06-ABAD-D91E-D77A-8EE4E233CBCD">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>5CB4A540-20EA-28BF-2C7E-30E5DFBAA24C</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29651205-0A22-D7BA-6991-B549729B30AF" name="CLIENTE_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 15:01:41 UTC</createdTime>
+<generatorID>1AE2F3C2-F26E-459F-95B1-964BD00FA4FA</generatorID>
+<ownerDesignName>Logica_Uno</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8987764E-CB0F-CBB8-B7E3-B785E0BBAA03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

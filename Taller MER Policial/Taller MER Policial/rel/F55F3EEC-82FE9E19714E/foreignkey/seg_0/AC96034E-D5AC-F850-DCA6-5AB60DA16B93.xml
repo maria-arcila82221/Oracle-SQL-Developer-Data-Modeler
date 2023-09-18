@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC96034E-D5AC-F850-DCA6-5AB60DA16B93" containerWithKeyObject="A1D19DA0-A825-E0A6-9456-75AA29A22D2A" localFKIndex="AB8A3ED7-E73D-1C6E-40F7-B8C5A8B44011" name="Caso_Juez_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>164D942C-E676-A2D2-CEFA-F6AB358F36BA</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<referredTableLongName>Juez</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3DC272E-6627-2FC1-9C42-3B2812644BFD</referredTableID>
+<keyObject>D0AC25F8-89D2-2FE7-6E5E-70830310F577</keyObject>
+<referredKeyID>D0AC25F8-89D2-2FE7-6E5E-70830310F577</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLAVE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

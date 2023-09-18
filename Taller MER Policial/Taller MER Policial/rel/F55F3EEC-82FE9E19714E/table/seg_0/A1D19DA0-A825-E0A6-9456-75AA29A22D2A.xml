@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1D19DA0-A825-E0A6-9456-75AA29A22D2A" name="Caso">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>691D1F2A-3EE5-7FFB-77BF-16A71833AEA5</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="62B42547-4F87-D1E1-6A1E-4725762FA9FF">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>3786E58A-3C9A-C6D0-2F75-1F23A74F33DA</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDENA" id="4720433B-826F-F0F0-44D6-C4A10F89AE39">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>CDC3BEC1-C9EF-6533-09A6-52B741C7502C</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="78101A5C-63F7-5124-4788-37C86EFB01DC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>DCCDD5C1-AE6A-38E6-EE5C-DF7A726DC830</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Juez_CLAVE" id="BBD14DE4-D837-4F08-8023-E84EEAE90AAB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>7A203F34-4727-77BD-8B2E-7BEC25E4DDF6</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC96034E-D5AC-F850-DCA6-5AB60DA16B93" referredColumn="B4F8A75B-79F9-58B2-E44D-A1C6A4DE7AB1"/>
+</associations>
+</Column>
+<Column name="Atracador_CODIGO" id="C5350504-F908-BCF0-2512-62880EFD4439">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>60414ED3-DE9E-E644-7B6C-416A6AEFD05E</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="976C223F-C37D-1C4F-EE2F-6567A44C0936" referredColumn="31CB8600-18DC-FB33-6AA4-197F532E8448"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F1CF54F-7F25-C6F1-A4F4-D6C51720659A" name="Caso_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>72035445-4598-3037-B755-928380DB8DEC</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B42547-4F87-D1E1-6A1E-4725762FA9FF"/>
+<colUsage columnID="BBD14DE4-D837-4F08-8023-E84EEAE90AAB"/>
+<colUsage columnID="C5350504-F908-BCF0-2512-62880EFD4439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED621D70-7127-DFBA-A2A7-E856C992C8BB" name="Caso_Atracador_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>FD56D646-9D9D-39C2-D93F-5203F02DB07F</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5350504-F908-BCF0-2512-62880EFD4439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB8A3ED7-E73D-1C6E-40F7-B8C5A8B44011" name="Caso_Juez_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:52:05 UTC</createdTime>
+<generatorID>164D942C-E676-A2D2-CEFA-F6AB358F36BA</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD14DE4-D837-4F08-8023-E84EEAE90AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

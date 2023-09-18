@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B8BE086-FF1C-D735-E1D4-92871ED1D13C" name="ESTADO_DISPOSITIVO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:04:26 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FUNCIONAMIENTO" id="D09A01EA-179F-AE12-F4C6-84F6F2AD7171">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:04:31 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="EC7E8851-8D7A-4A8B-7DAC-455319D4B260">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:05:12 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPOSICION_FISICA" id="9DF55C65-C95D-D2EF-97AC-583C146D706F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:05:28 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SANCION" id="0CCA4DB8-8D05-B2F4-3581-AADCB6D6CD13">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:07:33 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISPOSITIVO" id="DE95E84A-5E83-E2D9-B6FC-59426905BBD9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 16:22:15 UTC</createdTime>
+<generatorID>2D0F1F9B-7695-B6AA-508C-687AD2273BF8</generatorID>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<referedAttribute>747AF079-2C57-8210-05C5-5A34B69D3E56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC59B6C2-8893-EC61-A6FC-8C50C0277D7C" name="ESTADO PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-11 23:05:27 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC7E8851-8D7A-4A8B-7DAC-455319D4B260</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

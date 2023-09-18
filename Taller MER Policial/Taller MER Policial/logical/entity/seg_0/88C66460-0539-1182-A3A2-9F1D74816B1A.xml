@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88C66460-0539-1182-A3A2-9F1D74816B1A" name="Contrato">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:56:57 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="C6DB2D28-FDF1-CB87-70E1-D887C5B633EF">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:57:35 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="CC53D7CA-D0CD-3582-D7DE-2C75DE0BEA01">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:57:53 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ARMA" id="EF691C7B-1B53-D2AF-172D-5F3FF812FAF2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:58:18 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="DAE2BEE2-B5E1-B2ED-D4D4-61FA59647606">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:45:57 UTC</createdTime>
+<generatorID>DAA88C50-5D48-1D10-8F90-22781051B256</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>D7E0600D-D3D1-1D48-8570-A1ED55A50939</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO2" id="EBA4330A-49EC-F017-CC1D-C137C78CBEDB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:45:57 UTC</createdTime>
+<generatorID>DAA88C50-5D48-1D10-8F90-22781051B256</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>AE53B540-A820-E814-93B3-0178983CB45B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO3" id="B4C4405C-2EDF-60E8-C21D-58C1EBE170F5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 14:46:21 UTC</createdTime>
+<generatorID>9C7AE194-44C7-3FEE-4BFD-30184FE4AE86</generatorID>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<referedAttribute>276807B4-10B8-4375-E0B5-985A678D3446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DFDACD2-D9B0-F981-1D58-06459A40BA9F" name="Contrato PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:57:52 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<engineerTo>
+<item key="F55F3EEC-CE39-D35D-B332-82FE9E19714E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6DB2D28-FDF1-CB87-70E1-D887C5B633EF</attributeRef>
+<attributeRef>B4C4405C-2EDF-60E8-C21D-58C1EBE170F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

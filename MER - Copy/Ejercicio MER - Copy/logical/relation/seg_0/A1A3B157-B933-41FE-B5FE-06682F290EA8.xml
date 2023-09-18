@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dispositivo_Mantenimiento" directorySegmentName="seg_0" id="A1A3B157-B933-41FE-B5FE-06682F290EA8">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-12 16:21:16 UTC</createdTime>
+<ownerDesignName>Ejercicio MER - Copy</ownerDesignName>
+<engineerTo>
+<item key="8610E4C9-69E5-0918-C076-8DB64B5CF5CB" value="true"/>
+</engineerTo>
+<sourcePk>0FA0E585-06B8-7FF4-64B9-90810953C4CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45A930ED-8681-CB5B-8ECE-93B2C4B7BC92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2B33A09-7E9C-C23D-F313-0EB59F657F6A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

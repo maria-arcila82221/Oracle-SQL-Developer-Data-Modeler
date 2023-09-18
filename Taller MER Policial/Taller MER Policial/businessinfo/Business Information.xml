@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5D14A4D8-B606-F9D0-13C8-DBEFE7AD3DCE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-09-17 13:53:15 UTC</createdTime>
+<ownerDesignName>Taller MER Policial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
